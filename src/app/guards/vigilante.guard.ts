@@ -11,6 +11,7 @@ export class VigilanteGuard implements CanActivate {
 
   }  
 
+  // Prueba de commit 
   Redirect(flag:boolean):any{
     if(!flag){
         this.router.navigate(['/', 'notFound']);
